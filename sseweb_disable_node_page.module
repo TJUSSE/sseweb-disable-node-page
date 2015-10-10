@@ -1,5 +1,0 @@
-<?php
-
-function sseweb_disable_node_page_menu_alter(&$items) {
-    unset($items['node']);
-}

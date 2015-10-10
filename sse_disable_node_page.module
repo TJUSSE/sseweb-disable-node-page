@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * implement hook_menu_alter()
+ */
+function sse_disable_node_page_menu_alter(&$items) {
+  unset($items['node']);
+}
